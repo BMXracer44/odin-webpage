@@ -1,6 +1,8 @@
 *{
     font-family: Roboto;
     justify-content: center;
+    padding: 0%;
+    margin: 0%;
 }
 
 .top{
@@ -100,17 +102,34 @@
 
 .box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 0 0 100%;
     background-color: #3882F6;
     border-color: #3882F6;
     border-radius: 15px;
     color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    aspect-ratio: 16/1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box .ad{
+    justify-content: left;
 }
 
 .button{
+    display: flex;
     border: solid;
     border-color: #FFFFFF;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
 }
 
 .bottom{
